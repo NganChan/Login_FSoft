@@ -1,0 +1,11 @@
+Sử dụng Java servlet trên IDE NetBeans để thực hiện yêu cầu sau:
+- Tạo 3 page với đường dẫn Uri như sau:
+GET /login: show lên 1 Form đăng nhập như hình đính kèm.
+POST /check-login:
+- Khởi tạo mặc định 1 List User (id, username, password) với thông tin có sẵn (file users.json đính kèm)
+- Nhận thông tin người dùng input từ màn /login tiền hành kiếm tra có trùng khớp với List user đã khởi tạo ở trên.
+GET /result-login: hiện thị lên kết quả kiểm tra login ở màn /check-login. nếu pass show text "đăng nhập thành công" nếu fail show "đang nhập thất bại"
+Note kỹ thuật cần dùng trong bài:
+- https://vietjack.com/servlets/form_data_trong_servlet.jsp
+- https://vietjack.com/servlets/redirect_page_trong_servlet.jsp
+- Form có thể không cần css giống hình.
